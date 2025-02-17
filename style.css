@@ -1,0 +1,167 @@
+/* body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/fb5cb900-0cb6-4728-beb5-579b9af98fdd/web/IN-en-20250127-TRIFECTA-perspective_cf66f5a3-d894-4185-9106-5f45502fc387_large.jpg");
+    width: 100%;
+    height: 99vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+}
+
+.first {
+    position: absolute;
+    top: 23px;
+    right: 17vw;
+    border: 0.05px solid white;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 38px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.second {
+    position: absolute;
+    top: 23px;
+    right: 11.5vw;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    background-color: rgb(229, 9, 20);
+    color: white;
+}
+
+.container svg {
+    margin-top: 25px;
+    margin-left: 170px;
+}
+
+div>h1 {
+    margin-left: 30%;
+    margin-top: 60px;
+    text-align: center;
+    /* border: 2px solid yellow; */
+    color: white;
+    height: 197px;
+    width: 722px;
+    font-size: 57px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.plan {
+    /* font-family: sans-serif; */
+    margin-left: 6%;
+    margin-top: -61px;
+    text-align: center;
+    /* border: 2px solid yellow; */
+    color: white;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.plannext {
+    margin-left: 3%;
+    margin-top: 45px;
+    text-align: center;
+    /* border: 2px solid yellow; */
+    color: white;
+    font-size: 19px;
+}
+
+.sp2 {
+    position: absolute;
+    border: 2px solid rgb(193, 175, 175);
+    color: rgb(193, 175, 175);
+    background-color: rgb(229, 9, 20);
+    margin-left: 62vw;
+    height: 45px;
+    border-radius: 5px;
+    width: 176px;
+    font-size: 27px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-top: 33px;
+    padding-top: 6px;
+    padding-left: 32px;
+    padding-right: 26px;
+}
+
+.sp1 {
+    position: absolute;
+    border: 0.05px solid rgb(193, 175, 175);
+    border-radius: 5px;
+    color: rgb(193, 175, 175);
+    margin-left: 32vw;
+    height: 33px;
+    width: 430px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-top: 33px;
+    padding-top: 18px;
+    padding-left: 13px;
+}
+
+.new {
+    background-color: black;
+}
+
+.NEWDIV {
+    padding-top: 28px;
+    padding-left: 10vw;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+    font-size: 23px;
+}
+
+img {
+    height: 206px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 153px;
+    margin-top: 20px;
+}
+
+.img {
+    color: red;
+    position: absolute;
+    padding-top: 2px;
+    left: 20px;
+    font-size: 100px;
+}
+
+.divp {
+    background-color: black;
+    width: 100vw;
+    padding-top: 28px;
+    padding-left: 10vw;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+    font-size: 23px;
+    position: absolute
+}
+
+.section {
+    background-color: black;
+}
